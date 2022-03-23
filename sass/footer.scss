@@ -1,0 +1,29 @@
+footer {
+  grid-row: 3 / 4;
+
+  width: 100%;
+  max-width: 33.5rem;
+  height: fit-content;
+
+  margin-bottom: 3rem;
+
+  padding: 0 1.875rem;
+
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+
+  img {
+    display: block;
+    height: 1.0625rem;
+  }
+
+  #google {
+    height: 0.6875rem;
+  }
+
+  #pocket {
+    height: 0.6875rem;
+  }
+}

@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+
+  // reset
+  margin: 0;
+  padding: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-block-start: 0;
+  padding-block-end: 0;
+  padding-inline-start: 0;
+  padding-inline-end: 0;
+}
+
+html {
+  font-family: "Chivo", sans-serif;
+}
+
+body {
+  // full screen
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  justify-items: center;
+  background-color: $submit;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  background: url("/starter-code/assets/mobile/image-host.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+
+  opacity: 0.1;
+}
