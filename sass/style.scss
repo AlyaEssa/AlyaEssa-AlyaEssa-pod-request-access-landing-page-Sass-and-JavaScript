@@ -1,0 +1,16 @@
+$header: hsl(157, 74%, 62%);
+$white: hsl(0, 0%, 100%);
+$detail: hsl(225, 40%, 83%);
+
+$input: hsl(225, 26%, 23%);
+$submit: hsl(224, 35%, 11%);
+$footer: hsl(225, 21%, 45%);
+
+@import "general.scss";
+@import "header.scss";
+@import "main.scss";
+@import "form.scss";
+@import "footer.scss";
+@import "mediaTablet.scss";
+@import "mediaDesktop.scss";
+
