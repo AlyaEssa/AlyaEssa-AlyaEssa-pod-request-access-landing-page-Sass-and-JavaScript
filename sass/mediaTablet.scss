@@ -1,0 +1,108 @@
+// breakpoint: 768px
+@media only screen and (min-width: 48em) {
+  /// 780px
+  body {
+    justify-items: start;
+
+    padding-left: 2.4375rem;
+
+    background: url("../assets/desktop/bg-pattern-dots.svg") no-repeat $submit;
+
+    background-position: bottom left 1.875rem;
+  }
+
+  body::before {
+    background: url("../assets/tablet/image-host.jpg") no-repeat;
+    background-position: top right;
+    opacity: 1;
+  }
+
+  header {
+    margin-top: 3.125rem;
+    margin-bottom: 9.5rem;
+  }
+
+  main::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    z-index: -1;
+    top: 17px;
+
+    height: 31.875rem;
+    background-color: $submit;
+  }
+
+  main {
+    row-gap: 1.9375rem;
+
+    position: relative;
+
+    margin-bottom: 2.5rem;
+    padding: 0;
+
+    text-align: left;
+
+    h1 {
+      font-size: 3rem;
+      line-height: 3.5rem;
+
+      max-width: 41.5625rem;
+      margin-top: 5.8125rem;
+    }
+
+    p {
+      font-size: 1.11rem;
+      line-height: 1.5rem;
+      max-width: 27.5625rem;
+    }
+  }
+
+  form {
+    grid-row: 3 / 4;
+
+    display: block;
+
+    padding: 0;
+    margin-bottom: 3.5rem;
+    max-width: 26.6875rem;
+
+    position: relative;
+
+    #email {
+      padding: 0.875rem 2rem;
+
+      display: block;
+    }
+
+    #submit {
+      margin-top: 0;
+      padding: 0.5625rem 1.6875rem;
+
+      position: absolute;
+      top: 0.3125rem;
+      right: 0.3125rem;
+    }
+  }
+
+  footer {
+    grid-row: 4 / 5;
+
+    margin-bottom: 16.0625rem;
+    padding: 0;
+
+    img {
+      height: 1.8125rem;
+    }
+
+    #google {
+      height: 1.125rem;
+    }
+
+    #pocket {
+      height: 1.625rem;
+    }
+  }
+}
